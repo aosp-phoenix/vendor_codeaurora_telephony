@@ -205,7 +205,7 @@ public class QtiCarrierConfigHelper {
         if (pb != null) {
             return pb.getBoolean(key, false);
         }
-        Log.d(TAG, "WARNING, no carrier configs on phone Id: " + phoneId);
+        //Log.d(TAG, "WARNING, no carrier configs on phone Id: " + phoneId);
         return false;
     }
 
@@ -222,7 +222,7 @@ public class QtiCarrierConfigHelper {
         if (pb != null) {
             return pb.getBoolean(key, false);
         }
-        Log.d(TAG, "WARNING, no carrier configs on phone Id: " + phoneId);
+        //Log.d(TAG, "WARNING, no carrier configs on phone Id: " + phoneId);
         return false;
     }
 
@@ -237,7 +237,7 @@ public class QtiCarrierConfigHelper {
         if (pb != null) {
             return pb.getStringArray(key);
         }
-        Log.d(TAG, "WARNING, no carrier configs on phone Id: " + phoneId);
+        //Log.d(TAG, "WARNING, no carrier configs on phone Id: " + phoneId);
         return null;
     }
 
